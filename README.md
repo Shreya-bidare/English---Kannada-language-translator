@@ -6,12 +6,12 @@ Dataset
 The model is trained on a parallel English–Kannada corpus, where each English sentence is aligned with its corresponding Kannada translation.
 
 Dataset Processing Steps:
-Text normalization (lowercasing, punctuation cleaning)
-Tokenization of English and Kannada text
-Vocabulary creation for both source and target languages
-Conversion of text to integer sequences
-Padding sequences to fixed length
-Train–validation split for performance evaluation
+Text normalization (lowercasing, punctuation cleaning),
+Tokenization of English and Kannada text,
+Vocabulary creation for both source and target languages,
+Conversion of text to integer sequences,
+Padding sequences to fixed length,
+Train–validation split for performance evaluation,
 The preprocessing ensures proper handling of linguistic differences between English (SVO structure) and Kannada (SOV structure).
 
 Model Architecture
