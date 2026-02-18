@@ -29,7 +29,7 @@ Embedding layer for target tokens
 LSTM/GRU layers to generate Kannada output sequentially
 Softmax output layer to predict next word probabilities
 
-Tech Stack
+Tech Stack:
 Python
 TensorFlow / PyTorch
 NumPy
